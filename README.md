@@ -94,3 +94,11 @@ HTML 언어에서는 `<blockquote>` 요소를 사용하여 인용절을 구조�
 >"win for championship"<br>
 >"영웅출정가"<br>
 >"gggggg"
+
+### 표
+
+Job type | Role
+---|---
+Planner | Plan
+Designer | Design
+Developer | Develop
