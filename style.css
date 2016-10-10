@@ -14,14 +14,14 @@ h1 {
 	margin: 0;
 	font-weight: 200; /*Lighter*/
 	font-size: 5rem;
-	animation: wiggle 3s infinite
+	animation: wiggle 5s infinite
 }
 
 @keyframes wiggle {
 	0%, 50%, 100% { 
 		text-shadow: 0 0 10px #3e180d; 
 		transform: scale(1);
-		letter-spacing: 3em;
+		letter-spacing: 0;
 		font-size: 2rem;
 		opacity: 0.6;
 	} 
