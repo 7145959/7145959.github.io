@@ -1,6 +1,16 @@
 # 7145959.github.io
 task
 
+-
+
+# TODO	
+
+- [x] Study Markdowm
+- [ ] make `index.html`
+
+<!-- ---(굵은 선 ) -->
+<!-- -(얇은 선) -->
+
 ##
 
 ### 제목
@@ -49,3 +59,4 @@ task
 1. item1
 1. item2
 1. item3
+
