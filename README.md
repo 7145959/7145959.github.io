@@ -63,7 +63,9 @@ task
 ### 이미지
 
 ```html
-<img src="http://file2.instiz.net/data/file/20150805/1/f/7/1f7842bebbe8feea65b31d9ad801f8ae.jpg" alt"kingbob">
+<img src="http://file2.instiz.net/data/file/20150805/1/f/7/1f7842bebbe8feea65b31d9ad801f8ae.jpg" alt="kingbob">
 ```
+
+<img src="http://file2.instiz.net/data/file/20150805/1/f/7/1f7842bebbe8feea65b31d9ad801f8ae.jpg" alt="kingbob" width="500" height="403">
 
 ![KingBob](http://file2.instiz.net/data/file/20150805/1/f/7/1f7842bebbe8feea65b31d9ad801f8ae.jpg)
