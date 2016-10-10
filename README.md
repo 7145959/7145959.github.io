@@ -11,7 +11,7 @@ task
 <!-- ---(굵은 선 ) -->
 <!-- -(얇은 선) -->
 
-##
+## Markdown 문법 사용법 
 
 ### 제목
 
@@ -60,3 +60,10 @@ task
 1. item2
 1. item3
 
+### 이미지
+
+```html
+<img src="http://file2.instiz.net/data/file/20150805/1/f/7/1f7842bebbe8feea65b31d9ad801f8ae.jpg" alt"kingbob">
+```
+
+![KingBob](http://file2.instiz.net/data/file/20150805/1/f/7/1f7842bebbe8feea65b31d9ad801f8ae.jpg)
