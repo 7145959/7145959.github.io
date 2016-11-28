@@ -1,0 +1,43 @@
+/*psd->html*/
+
+.hanger-chip{
+	float: left;
+	height: 320px;
+	width: 320px;
+	background: #fe4940;
+}
+.herat-love{
+	float: left;
+	height: 320px;
+	width: 320px;
+	background: #941f20;
+}
+.cactus{
+	float: left;
+	height: 320px;
+	width: 320px;
+	background: #3e1010;
+}
+
+.dinner-food{
+	float: left;
+	height: 320px;
+	width: 480px;
+	background: #000;
+
+}
+
+.icon-food{
+	float: left;
+	height: 240px;
+	width: 240px;
+	background: #3d3d3d;
+
+}
+.dinner-food{
+	float: left;
+	height: 240px;
+	width: 240px;
+	background: #000;
+
+}

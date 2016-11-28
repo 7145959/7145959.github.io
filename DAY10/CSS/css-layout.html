@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css 레이아웃 - inline-block method VS Float Method</title>
+	<link rel="stylesheet" href="../css/css-layout.css">
+</head>
+<body>
+	<body class="show-grid">
+	<!-- .box{box$}*3 -->
+	<div class="box primary">box1</div>
+	<div class="box secondary">box2</div>
+	<div class="box tertiary">box3</div>
+
+
+	<div class="grid-container">
+
+	</div>
+
+	<script>
+(function(global){
+  'use strict';
+  document.onkeydown = function(event) {
+    if( event.shiftKey && event.keyCode === 71) {
+      document.body.classList.toggle('show-grid');
+    }
+  };
+})(this);
+</script>
+
+
+</body>
+</html>

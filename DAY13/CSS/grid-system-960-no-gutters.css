@@ -1,0 +1,116 @@
+ /*Aware PSD를 토대로 960 그리드 시스템 설계 Design*/
+/*페이지 너비 960PX*/
+/*컬럼개수 8*/
+/*거터 너비 0*/
+/*컬럼너비 120px*/
+
+
+
+
+/*컨테이너(Container) 모듈*/
+.container1 {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*쇼 그리드 (show grid) 모듈*/
+./*show-grid {
+	background: linear-gradient(transparent 9px, hsla(267, 17%, 31%, 0.34) 9px);
+	background-size: 1px 10px;
+}*/
+
+/*쇼 백그라운드 가이드라인 모듈*/
+
+.show-grid .container1 {
+	background: linear-gradient(90deg, red 50%, green 50%);
+	background-size: 240px 1px;
+}
+
+
+.show-grid .container1 {
+	position: relative;
+}
+
+/*쇼 오버레이 가이드라인 모듈*/
+
+.show-grid .container1::before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 2000px;
+	background: linear-gradient(90deg, hsla(0, 100%, 50%, 0.3) 50%, hsla(0, 50%, 30%, 0.7) 50%);
+	background-size: 240px 1px;
+}
+
+.show-grid.overlay .container1::before {
+	z-index: 10000;
+}
+
+/*로우(Row) 모듈*/
+.row:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/*컬럼(Column) 모듈*/
+[class*="chol-"] { float: left; }
+
+/*'^'' 추가시 ~로 시작하는 값을 찾음. 속성 선택자 */
+/*'*'' 모든 속성을 찾아주는 기호 */
+.chol-1 { width: 120px; }
+.chol-2 { width: 240px; }
+.chol-3 { width: 360px; }
+.chol-4 { width: 480px; }  
+.chol-5 { width: 600px; }
+.chol-6 { width: 720px; }
+.chol-7 { width: 840px; }
+.chol-8 { width: 960px; }
+
+/*푸시 push/풀(pull) 모듈 따로 움질일때*/
+[class*="phush-"], 
+[class*="phull-"] { position: relative; }
+
+.phush-1 { left: 120px; }
+.phush-2 { left: 240px; }
+.phush-3 { left: 360px; }
+.phush-4 { left: 480px; }  
+.phush-5 { left: 600px; }
+.hush-6 { left: 720px; }
+.phush-7 { left: 840px; }
+.phush-8 { left: 960px; }
+
+.phull-1 { right: 120px; }
+.phull-2 { right: 240px; }
+.phull-3 { right: 360px; }
+.phull-4 { right: 480px; }  
+.phull-5 { right: 600px; }
+.phull-6 { right: 720px; }
+.phull-7 { right: 840px; }
+.phull-8 { right: 960px; }
+
+/*프리픽스(Prefix)/서픽스(Suffix) 모듈-함께 움직일 떄 */
+[class*="phrefix-"] 
+[class*="shuffix-"] { position: relative; }
+
+.phrefix-1 { margin-left: 120px; }
+.phrefix-2 { margin-left: 240px; }
+.phrefix-3 { margin-left: 360px; }
+.phrefix-4 { margin-left: 480px; }  
+.phrefix-5 { margin-left: 600px; }
+.phrefix-6 { margin-left: 720px; }
+.phrefix-7 { margin-left: 840px; }
+.phrefix-8 { margin-left: 960px; }
+
+.shuffix-1 { margin-right: 120px; }
+.shuffix-2 { margin-right: 240px; }
+.shuffix-3 { margin-right: 360px; }
+.shuffix-4 { margin-right: 480px; }  
+.shuffix-5 { margin-right: 600px; }
+.shuffix-6 { margin-right: 720px; }
+.shuffix-7 { margin-right: 840px; }
+.shuffix-8 { margin-right: 960px; }

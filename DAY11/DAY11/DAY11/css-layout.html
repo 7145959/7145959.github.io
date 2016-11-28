@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta charset="UTF-8">
+  <title>CSS 레이아웃: 플로팅(Floating) 방법</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/css-layout.css">
+  <link rel="stylesheet" href="css/box.css">
+  <script src="js/toggleGrid.js"></script>
+</head>
+<body>
+
+<!-- 상단부 80px, 박스 행(row) -->
+<div class="grid-container">
+	<div class="row products clearfix">
+		<div class="hanger-chip">
+		<img 
+		 src="images/photo-01.png"
+		 srcset="images/photo-01x2.png 2x" 
+		 alt="">
+		<h3 class="product-headline">Hanger Chip</h3>
+		<p class="product-description">Used to relax your fingers.Effectively relieve finger</p>
+			<!-- <img style="float: left" src="http://placehold.it/170x170" alt="wireframe">
+			<p>Used to relax your fingers.Effectively relieve finger caused by repeated mechanical labor pain, numbness and fatigue.Help you shape thin and beautiful fingers.</p> -->
+			<!-- 해지할 때는 같은 방향으로 해야함 -->
+			<!-- <p style="clear: left">As the customs clearance process is different in different countries,we usually ship item as "gift" to customer with lower value,if you have anything we should pay attention please note before shipment.</p>
+			<p>1.Working time:Monday-Saturday(Greenwich time 2:30AM-11:30AM)(Pacific time:6:30PM-3:30AM).</p> -->
+
+		</div>
+		<div class="heart-love"></div>
+		<div class="cactus"></div>
+	
+	</div>
+	<div class="row foods clearfix">
+		<div class="dinner-food"></div>
+		<div class="icon-food"></div>
+		<div class="morning-food"></div>
+
+	</div>
+	
+	<!-- <div class="box primary">primary</div>
+	<div class="box secondary">secondary</div>
+	<div class="box tertiary">tertiary</div>
+	<div class="box primary">primary</div>
+	<div class="box secondary">secondary</div>
+	<div class="box tertiary">tertiary</div>
+ -->
+</div>
+
+</body>
+</html>
